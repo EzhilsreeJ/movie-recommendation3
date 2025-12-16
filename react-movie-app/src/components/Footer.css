@@ -1,0 +1,26 @@
+.app-footer {
+  background-color: #f0f2f5; /* Light gray background */
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px; /* Add some space above the footer */
+}
+
+.app-footer p {
+  margin: 0 0 10px 0;
+  font-size: 0.9em;
+}
+
+.app-footer .footer-links a {
+  color: #007bff; /* Standard link blue */
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 0.9em;
+  transition: color 0.3s ease;
+}
+
+.app-footer .footer-links a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
