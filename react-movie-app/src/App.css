@@ -1,0 +1,16 @@
+/* App.css can be used for global styling or layout adjustments */
+/* For example, if Header and Footer were fixed, this would be relevant */
+
+/* Global styles that might apply to the entire app layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-area {
+  flex: 1; /* This allows the main content to take up available space */
+  margin-top: 60px; /* Adjust if header height changes */
+  margin-bottom: 60px; /* Adjust if footer height changes */
+  padding: 0 20px; /* Add some horizontal padding */
+}
